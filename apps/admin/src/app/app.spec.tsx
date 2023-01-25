@@ -9,7 +9,7 @@ describe('App', () => {
   });
 
   it('should have a greeting as the title', () => {
-    const { getByText } = render(<App />);
-    expect(getByText(/Welcome admin/gi)).toBeTruthy();
+    const { getByRole } = render(<App />);
+    expect(getByRole('banner')).toBeTruthy();
   });
 });

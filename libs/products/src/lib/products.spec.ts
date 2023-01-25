@@ -1,7 +1,7 @@
-import { products } from './products';
+import { exampleProducts } from './products';
 
 describe('products', () => {
   it('should work', () => {
-    expect(products()).toEqual('products');
+    expect(exampleProducts).toHaveLength(2);
   });
 });

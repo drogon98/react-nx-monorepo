@@ -4,7 +4,7 @@ export interface BannerProps {
 }
 
 export function Banner(props: BannerProps) {
-  return <header>{props.text}</header>;
+  return <header role="banner">{props.text}</header>;
 }
 
 export default Banner;
