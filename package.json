@@ -2,7 +2,9 @@
   "name": "myorg",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve"
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
