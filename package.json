@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run-many"
+    "start": "nx run-many",
+    "graph": "nx graph"
   },
   "private": true,
   "devDependencies": {
