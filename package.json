@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nx run-many",
-    "graph": "nx graph"
+    "graph": "nx graph",
+    "build": "nx build"
   },
   "private": true,
   "devDependencies": {
